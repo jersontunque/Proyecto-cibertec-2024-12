@@ -1,3 +1,7 @@
+.container-principal{
+    background-color: #F5F5F5
+}
+
 
 
 .container-principal p{
@@ -16,6 +20,11 @@ font-size: 2rem;
 
 .texto-principal-gourmet{
     font-size: 4rem;
+    font-weight: bold;
+    color: #D84315;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    font-family: 'Georgia', serif;
+    
 }
 
 .container-textoprincipal img{
@@ -27,6 +36,7 @@ font-size: 2rem;
 }
 
 .container-tarjetas{
+    
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -35,9 +45,48 @@ font-size: 2rem;
 }
 
 .tarjeta{
+    border: 2px solid #BDBDBD;
     border:2px solid black;
     width: 450px;
     height:auto;
     border-radius: 20px;
+    box-shadow: 0 px 40px rgba(0, 0, 0, 0.1);
+    padding: 10px;  
+}
+
+.tarjeta:hover{
+    border-color: red;
+}
+
+
+.tarjeta p{
+    font-size: 1.3rem;
+    color: #424242;
+    
+}
+
+.container-comentarios{
+    margin: 50px 0 20px 0;
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    justify-content: space-around;
 
 }
+
+.comentario{
+    padding: 20px;
+    text-align: justify; 
+    width: 300px;
+    height: auto;
+    border: 2px solid black;
+    font-size: 30px;
+    border-radius: 20px;
+}
+
+.comentario p{
+    text-align: justify;
+    font-size: 20px;
+}
+

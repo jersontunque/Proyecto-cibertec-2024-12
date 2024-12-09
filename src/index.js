@@ -5,6 +5,8 @@ import Header from './components/header/Header.js';
 import PrincipalPage from './components/vistas/PrincipalPage.js';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import MenuPage from './components/vistas/MenuPage.js';
+import Footer from './components/footer/Fotter.js';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -17,7 +19,7 @@ root.render(
         <Route path="/" element={<PrincipalPage />} />
         <Route path="/menu" element={<MenuPage />} /> 
     </Routes>
-
+  <Footer/>
     </Router>
 
   </React.StrictMode>

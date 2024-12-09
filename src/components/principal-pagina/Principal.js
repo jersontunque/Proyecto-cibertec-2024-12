@@ -17,7 +17,7 @@ class Principal extends Component {
 
                 <div className = 'container-textoprincipal'>
 
-                <p>Bienvenido a  <span className = 'texto-principal-gourmet'><br/> El Rincon Gourmet</span></p>
+                <p>Bienvenido a  <span className = 'texto-principal-gourmet'><br/>EL RINCON GOURMET</span></p>
                 <p>Donde cada plato cuenta una historia<br/> y cada sabor es un viaje</p>
                 <img src='/imagenes/principalpagina1.jpg'/>
                 </div>
@@ -41,10 +41,27 @@ class Principal extends Component {
             </div>
 
             <div className="container-comentarios">
-                
+                <div className="comentario comentario1">
+                <h5>Juan Carlos</h5>
+                <p>"¡Una experiencia inolvidable! El ambiente es acogedor y elegante, perfecto para una cena especial. Los platos no solo son deliciosos, sino que están presentados con un toque artístico que realmente impresiona.</p>
+                </div>
+                <div className="comentario comentario2">
+                <h5>Diego Andres</h5>
+                <p>La combinación perfecta entre sabores únicos y un ambiente cálido. Desde el primer bocado, se nota la calidad de los ingredientes y la pasión detrás de cada plato</p>
+                </div>
+                <div className="comentario comentario3">
+                <h5>José Manuel</h5>
+                <p>El postre fue la cereza del pastel, simplemente espectacular. ¡Una experiencia que vale la pena repetir</p>
+                </div>
+                <div className='comentario comentario4'>
+                <h5>Camila Valentina</h5>
+                <p>Un deleite para los sentidos! Desde la atención amable hasta la presentación impecable de los platos, todo fue perfecto</p>
+                </div>
             </div>
             
             </div>
+
+            
         )
     }
 }

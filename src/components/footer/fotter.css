@@ -1,0 +1,9 @@
+.container-footer{
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+    background-color: #2A6041;
+    color: white;
+
+}
